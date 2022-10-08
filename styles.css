@@ -3,3 +3,42 @@ body {
     background-color: bisque;
     text-align: center;
 }
+
+img {
+    padding: 25px;
+    padding-top: 15px;
+}
+
+h1 {
+    padding: 15px;
+}
+
+.proj-desc {
+    padding-right: 300px;
+    padding-left: 300px;
+}
+
+.proj {
+    background-color: rgb(247, 204, 153);
+    padding: 25px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+.col {
+    background-color: black;
+    color: bisque;
+    margin-right: 150px;
+    margin-left: 150px;
+    text-decoration: black;
+    border: 10px;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: rgb(247, 204, 153);
+}
+
+.other-page {
+    color: bisque;
+    text-decoration: black;
+}
