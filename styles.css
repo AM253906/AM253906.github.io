@@ -2,15 +2,21 @@ body {
     margin: 0;
     background-color: bisque;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
 }
 
-img {
+#video {
     padding: 25px;
     padding-top: 15px;
+    margin-bottom: 25px;
 }
 
 h1 {
     padding: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .proj-desc {
@@ -21,9 +27,11 @@ h1 {
 .proj {
     background-color: rgb(247, 204, 153);
     padding: 25px;
+    padding-bottom: 50px;
     margin-right: 200px;
     margin-left: 200px;
     margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .col {
@@ -41,4 +49,17 @@ h1 {
 .other-page {
     color: bisque;
     text-decoration: black;
+}
+
+#app-link {
+    background-color: black;
+    color:  rgb(247, 204, 153);
+    border: 10px;
+    border-style: outset;
+    border-radius: 10px;
+    border-color: bisque;
+    text-decoration: black;
+    padding: 10px;
+    margin-bottom: 25px;
+    margin-top: 10px;
 }
