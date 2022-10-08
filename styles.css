@@ -96,6 +96,10 @@ h1 {
         border-color: rgb(247, 204, 153);
     }
 
+    #app-link {
+        text-decoration: black;
+    }
+
     #video {
         width: 300px;
         height: fit-content;
