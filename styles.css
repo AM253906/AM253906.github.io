@@ -46,6 +46,10 @@ h1 {
     border-color: rgb(247, 204, 153);
 }
 
+.col:hover {
+    background-color: rgb(243, 184, 112);
+}
+
 .other-page {
     color: bisque;
     text-decoration: black;
