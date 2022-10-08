@@ -67,3 +67,37 @@ h1 {
     margin-bottom: 25px;
     margin-top: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+    .proj-desc {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+    .proj {
+        background-color: rgb(247, 204, 153);
+        padding: 25px;
+        padding-bottom: 50px;
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .col {
+        background-color: black;
+        color: bisque;
+        margin-right: 15px;
+        margin-left: 15px;
+        text-decoration: black;
+        border: 10px;
+        border-style: outset;
+        border-radius: 10px;
+        border-color: rgb(247, 204, 153);
+    }
+
+    #video {
+        width: 300px;
+        height: fit-content;
+    }
+}
