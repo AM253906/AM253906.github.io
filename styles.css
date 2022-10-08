@@ -20,8 +20,8 @@ h1 {
 }
 
 .proj-desc {
-    padding-right: 300px;
-    padding-left: 300px;
+    padding-right: 200px;
+    padding-left: 200px;
 }
 
 .proj {
@@ -76,6 +76,40 @@ h1 {
     
     .proj {
         background-color: rgb(247, 204, 153);
+        padding: 15px;
+        padding-bottom: 50px;
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+    
+    .col {
+        background-color: black;
+        color: bisque;
+        margin-right: 15px;
+        margin-left: 15px;
+        text-decoration: black;
+        border: 10px;
+        border-style: outset;
+        border-radius: 10px;
+        border-color: rgb(247, 204, 153);
+    }
+
+    #video {
+        width: 300px;
+        height: fit-content;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .proj-desc {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    
+    .proj {
+        background-color: rgb(247, 204, 153);
         padding: 25px;
         padding-bottom: 50px;
         margin-right: 20px;
@@ -97,7 +131,7 @@ h1 {
     }
 
     #video {
-        width: 300px;
+        width: 500px;
         height: fit-content;
     }
 }
