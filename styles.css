@@ -9,7 +9,9 @@ body {
 #video {
     padding: 25px;
     padding-top: 15px;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
+    width: 600px;
+    height: 315px;
 }
 
 h1 {
@@ -32,49 +34,6 @@ h1 {
     margin-left: 200px;
     margin-top: 25px;
     margin-bottom: 25px;
-}
-
-.col {
-    background-color: black;
-    color: bisque;
-    margin-right: 150px;
-    margin-left: 150px;
-    text-decoration: black;
-    border: 10px;
-    border-style: outset;
-    border-radius: 10px;
-    border-color: rgb(247, 204, 153);
-}
-
-.col:hover {
-    background-color: rgb(243, 184, 112);
-}
-
-.other-page {
-    color: bisque;
-    text-decoration: black;
-}
-
-#app-link {
-    background-color: black;
-    color:  rgb(247, 204, 153);
-    border: 10px;
-    border-style: outset;
-    border-radius: 10px;
-    border-color: bisque;
-    text-decoration: black;
-    padding: 10px;
-    margin-bottom: 25px;
-    margin-top: 10px;
-}
-
-#app-link:hover {
-    background-color: rgb(241, 170, 82);
-}
-
-#video {
-    width: 600px;
-    height: 315px;
 }
 
 @media only screen and (max-width: 900px) {
