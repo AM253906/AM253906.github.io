@@ -19,6 +19,8 @@ h1 {
     font-weight: bold;
     margin-top: 20px;
     margin-bottom: 0px;
+    text-shadow: 2px 2px black;
+    -webkit-text-fill-color: rgb(247, 204, 153);
 }
 
 .proj-desc {
@@ -34,6 +36,8 @@ h1 {
     margin-left: 200px;
     margin-top: 25px;
     margin-bottom: 25px;
+    border-radius: 25px;
+    box-shadow: 5px 10px 20px black;
 }
 
 @media only screen and (max-width: 900px) {
