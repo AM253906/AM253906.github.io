@@ -56,22 +56,6 @@ h1 {
         margin-top: 25px;
         margin-bottom: 25px;
     }
-    
-    .col {
-        background-color: black;
-        color: bisque;
-        margin-right: 15px;
-        margin-left: 15px;
-        text-decoration: black;
-        border: 10px;
-        border-style: outset;
-        border-radius: 10px;
-        border-color: rgb(247, 204, 153);
-    }
-
-    #app-link {
-        text-decoration: black;
-    }
 
     #video {
         width: 150px;
@@ -93,18 +77,6 @@ h1 {
         margin-left: 20px;
         margin-top: 25px;
         margin-bottom: 25px;
-    }
-    
-    .col {
-        background-color: black;
-        color: bisque;
-        margin-right: 15px;
-        margin-left: 15px;
-        text-decoration: black;
-        border: 10px;
-        border-style: outset;
-        border-radius: 10px;
-        border-color: rgb(247, 204, 153);
     }
 
     #video {
